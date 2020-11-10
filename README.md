@@ -3,7 +3,7 @@
 This repo contains a collection of nodejs scripts to make setup of a keeper easier and simpler
 
 ## Getting started
-
+This documentation assumes you have bonded and activated your relayer already.
 - First create a wallet by running `node createwallet`,this will give you the mnemonic,privatekey and public address of the newly created wallet.
 - Modify the wallet config in config/wallet.js with the new mnemonic.
 - Get the infura project id from dashboard,paste it in the `config/provider.js` file.
